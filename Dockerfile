@@ -1,8 +1,8 @@
 FROM openjdk:17
 
-COPY target/AdminServer.jar /usr/adminapp
+COPY target/AdminServer.jar /opt/adminapp
 
-WORKDIR /usr/adminapp
+WORKDIR /opt/adminapp
 
 EXPOSE 1111
 
